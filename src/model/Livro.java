@@ -11,7 +11,7 @@ public class Livro implements Imprimivel, Serializable {
     private List<Receita> listaDeReceitas;
 
     public Livro() {
-        this.listaDeReceitas = new ArrayList<>(Receita);
+        this.listaDeReceitas = new ArrayList<Receita>();
     }
 
     public String getNome() {

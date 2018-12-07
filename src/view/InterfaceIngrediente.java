@@ -1,5 +1,6 @@
 package view;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import model.Ingrediente;
@@ -7,7 +8,7 @@ import model.Ingrediente;
 public class InterfaceIngrediente {
     static int opcao = 0;
     static Scanner entrada = new Scanner(System.in);
-    static List<Ingrediente> listaDeIngredientes;
+    public static List<Ingrediente> listaDeIngredientes;
 
     public static void menuPrincipal() {
         do {
